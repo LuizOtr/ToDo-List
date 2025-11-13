@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #121212; 
+}
+
+.logo{
+    display: flex;
+    background: #040518;
+    height: 25vh;
+    width: 100%;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: translateY(-50%)
+}
+
+#newTask{
+    background-color: #282a32;
+    border: #e88953;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+    color: #a9a9a9;
+    font-size: 14px;
+    min-height: 50px;
+    max-height: 150px;
+    min-width: 600px;
+    max-width: 900px;
+    overflow-y: auto;
+    resize: none;
+}
+
+#submit{
+    background-color: #19195b;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list{
+    background-color: #121212;
+    width: 100%;
+    min-height: 75vh;
+}
