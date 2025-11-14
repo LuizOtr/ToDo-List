@@ -14,14 +14,31 @@
         <div class="logo">
 
         </div>
-        <form class="forms">
-            <div class="box-container">
-                <textarea id="newTask" placeholder="Adicione uma nova tarefa" ></textarea>
-                <input type="submit" id="submit" value="Criar">
+        <div class="forms">
+            <form class="forms-group">
+                <div class="box-container">
+                    <textarea id="newTask" placeholder="Adicione uma nova tarefa"></textarea>
+                    <input type="submit" id="submit" value="Criar +">
+                </div>
+            </form>
+        </div>
+
+        <div class="option">
+            <div class="tasks-group">
+                <nav id="listTasks">Tarefa criadas</nav>
+                <span class="badge">0</span>
             </div>
-        </form>
+            <div class="done-group">
+                <nav id="listDone">Concluídas</nav>
+                <span class="badge">0</span>
+            </div>
+        </div>
         <div class="list">
 
+            <ul id="List">
+
+            </ul>
         </div>
     </div>
+
 </html>
